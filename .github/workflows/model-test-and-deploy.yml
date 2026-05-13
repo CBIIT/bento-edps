@@ -1,0 +1,23 @@
+name: Model Validate and Build
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  validate-and-build:
+    permissions:
+        packages: read
+        contents: write
+    uses: CBIIT/bento-workflows/.github/workflows/model-test-and-deploy.yml@v3.1.2
+    with:
+      model_files: |
+        edp-props.yml
+      model_prefix: edp
+      no_docs: true
+      event_name: ${{ github.event_name }}
+
