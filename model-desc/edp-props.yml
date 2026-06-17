@@ -1,5 +1,5 @@
-Nodes: null
-Relationships: null
+Nodes: {}
+Relationships: {}
 PropDefinitions:
   obib_terms_valueset:
     Desc: A valueset containing permissible values standardized by OBIB to describe biological specimens (patient tissues, bodily fluids and clinical data).

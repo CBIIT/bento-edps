@@ -49,8 +49,8 @@ bento-edps/
 ## EDP definition format
 Each EDP is declared as a `PropDefinitions` entry in `edp-props.yml`:
 ```yaml
-Nodes: null
-Relationships: null 
+Nodes: {}
+Relationships: {} 
 PropDefinitions:
   <edp_vs_handle>:
     Desc: <human-readable description of what this EDP represents>
