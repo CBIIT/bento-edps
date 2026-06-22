@@ -5,11 +5,11 @@ PropDefinitions:
     Desc: A valueset containing permissible values standardized by OBIB to describe biological specimens (patient tissues, bodily fluids and clinical data).
     Ext: true # flag attribute indicating this defines an EDP
     Term: # this specifies a Term that is linked to the EDP
-      Origin: CRDC # or other approved origins
-      Definition: EDP to reference valueset for OBIB that provides standard permissible values for describing biological specimens. 
-      Code: "CRDC0002" 
-      Version: "1"
-      Value: Obib Value Set Reference #Display name of the EDP
+      - Origin: CRDC # or other approved origins
+        Definition: EDP to reference valueset for OBIB that provides standard permissible values for describing biological specimens. 
+        Code: "CRDC0002" 
+        Version: "1"
+        Value: Obib Value Set Reference #Display name of the EDP
     Enum:
     - "adipose tissue specimen" 
     - "adrenal gland specimen" 
