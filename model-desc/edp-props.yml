@@ -138,4 +138,16 @@ PropDefinitions:
     - "vagina specimen" 
     - "vagina swab specimen" 
     - "venous blood specimen" 
-    - "vitreous humor specimen" 
+    - "vitreous humor specimen"
+  qa_test_valueset:
+    Desc: QA-only EDP for DATATEAM-595 pipeline verification. Not for production model use.
+    Ext: true
+    Term:
+      - Origin: CRDC
+        Definition: Throwaway test EDP to verify bento-edps to MDB to STS create flow.
+        Code: "CRDC0005"
+        Version: "1"
+        Value: QA Test Value Set
+    Enum:
+      - "qa_test_alpha"
+      - "qa_test_beta"
