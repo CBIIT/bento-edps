@@ -1,0 +1,13 @@
+Terms:
+  qa_test_alpha:
+    Origin: CRDC
+    Code: "QA0001"
+    Version: "1"
+    Value: qa_test_alpha
+    Definition: "QA test permissible value alpha for DATATEAM-595 EDP pipeline verification."
+  qa_test_beta:
+    Origin: CRDC
+    Code: "QA0002"
+    Version: "1"
+    Value: qa_test_beta
+    Definition: "QA test permissible value beta for DATATEAM-595 EDP pipeline verification."
