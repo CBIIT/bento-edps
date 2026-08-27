@@ -97,17 +97,17 @@ PropDefinitions:
   program_name:
     Desc: |
       The name of the program
-    Ext: true       # indicator that an EDP and its corresponding valueset is being referenced
-    Term:           # section to point to the details of the right EDP required out of the ones available 
+    Term:           # the CDE that defines the purpose of this property
+      Origin: caDSR      
+      Code: 000000
+      Value: Program Name
+      Version: "1"
+    Enum:   # the EDP that defines the permissible value set
       Origin: CRDC      
       Code: CRDC00001
       Value: NCI Program Names
       Version: "1"
-      Definition: Sample EDP for program names.
-    Enum:   
-      - term_1
-      - term_2
-```
+ ```
 Once wired up, the MDB update pipeline recognizes that the property's value set is EDP-backed and will simply link the property's CDE to the shared EDP value_set in the MDB using a :specifies_value_set relationship. 
 
 ## Adding a new EDP 
