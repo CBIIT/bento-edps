@@ -1,0 +1,854 @@
+Terms:
+  CBTN:
+    Origin: CRDC
+    Code: CBTN
+    Version: '1'
+    Value: Childhood Cancer Data Initiative CCDI Integration of genomic and clinical
+      data from unique rare cancer datasets to facilitate data sharing
+    Definition: phs002517
+  CMB:
+    Origin: CRDC
+    Code: CMB
+    Version: '1'
+    Value: CM Biobank
+    Definition: phs002192
+  COTC021:
+    Origin: CRDC
+    Code: COTC021
+    Version: '1'
+    Value: Evaluation of Orally Administered mTOR inhibitor Rapamycin in Dogs in the
+      Adjuvant Setting with Osteosarcoma
+    Definition: null
+  COTC022:
+    Origin: CRDC
+    Code: COTC022
+    Version: '1'
+    Value: A Contemporaneous Controlled Study of the Standard of Care SOC in Dogs
+      with Appendicular Osteosarcoma
+    Definition: null
+  CCDI-KUMC:
+    Origin: CRDC
+    Code: CCDI-KUMC
+    Version: '1'
+    Value: Childhood Cancer Data Initiative CCDI Free the Data Open Sharing of Comprehensive
+      Genomic Childhood Cancer Datasets Kansas
+    Definition: phs002529
+  Michigan:
+    Origin: CRDC
+    Code: Michigan
+    Version: '1'
+    Value: Childhood Cancer Data Initiative CCDI Enhancement of Data Sharing in Pediatric
+      Adolescent and Young Adult Cancers
+    Definition: phs002431
+  MP2PRT-CESC:
+    Origin: CRDC
+    Code: MP2PRT-CESC
+    Version: '1'
+    Value: Mutational landscape in recurrent and metastatic cervical carcinoma
+    Definition: phs002293
+  KF-TALL:
+    Origin: CRDC
+    Code: KF-TALL
+    Version: '1'
+    Value: Gabriella Miller Kids First Pediatric Research Program in Pediatric T Cell
+      Acute Lymphoblastic Leukemia
+    Definition: phs002276
+  Whole Genome Sequencing to Discover Familial Myeloma Risk Genes:
+    Origin: CRDC
+    Code: Whole Genome Sequencing to Discover Familial Myeloma Risk Genes
+    Version: '1'
+    Value: Whole Genome Sequencing to Discover Familial Myeloma Risk Genes
+    Definition: phs001819
+  QIN-SARCOMA:
+    Origin: CRDC
+    Code: QIN-SARCOMA
+    Version: '1'
+    Value: QIN SARCOMA
+    Definition: phs004225
+  TEXAS PEDIATRIC PDX:
+    Origin: CRDC
+    Code: TEXAS PEDIATRIC PDX
+    Version: '1'
+    Value: Texas Pediatric Patient Derived Xenograft
+    Definition: phs003215
+  caNanoLab:
+    Origin: CRDC
+    Code: caNanoLab
+    Version: '1'
+    Value: caNanoLab Data
+    Definition: null
+  HTAN image:
+    Origin: CRDC
+    Code: HTAN image
+    Version: '1'
+    Value: Human Tumor Atlas Network HTAN imaging data
+    Definition: phs002371_image
+  HTAN:
+    Origin: CRDC
+    Code: HTAN
+    Version: '1'
+    Value: Human Tumor Atlas Network HTAN primary sequencing data
+    Definition: phs002371
+  KF-IGCT:
+    Origin: CRDC
+    Code: KF-IGCT
+    Version: '1'
+    Value: First Genetic Predisposition to Intracranial Germ Cell Tumors
+    Definition: phs002322
+  KF-NCSF:
+    Origin: CRDC
+    Code: KF-NCSF
+    Version: '1'
+    Value: Gabriella Miller Kids First Pediatric Research Program in Novel Cancer
+      Susceptibility in Families from BASIC3
+    Definition: phs001878
+  WABCS:
+    Origin: CRDC
+    Code: WABCS
+    Version: '1'
+    Value: Using Genomics to Reduce Breast Cancer Disparities in the African Diaspora
+    Definition: phs001687
+  CCDI_USC:
+    Origin: CRDC
+    Code: CCDI_USC
+    Version: '1'
+    Value: Childhood Cancer Data Initiative CCDI Administrative Supplements for the
+      NCI P30 Cancer Center Support Grants to Enhance Data Sharing in Pediatric Adolescent
+      and Young Adult Cancers USC
+    Definition: phs002518
+  CCDI_PIVOT_LEU:
+    Origin: CRDC
+    Code: CCDI_PIVOT_LEU
+    Version: '1'
+    Value: Childhood Cancer Data Initiative CCDI CCDI Pediatric In Vivo Testing Program
+      Leukemia
+    Definition: phs003164.v2.p1
+  COTC030:
+    Origin: CRDC
+    Code: COTC030
+    Version: '1'
+    Value: Evaluation of Inhaled Recombinant Human IL 15 Combined with Standard of
+      Care in Dogs with Osteosarcoma
+    Definition: null
+  CCDI:
+    Origin: CRDC
+    Code: CCDI
+    Version: '1'
+    Value: Childhood Cancer Data Initiative CCDI Molecular Characterization Initiative
+    Definition: phs002790
+  H5C3:
+    Origin: CRDC
+    Code: H5C3
+    Version: '1'
+    Value: Health Information National Trends Survey HINTS 5 Cycle 3
+    Definition: phs004216
+  KF-GNINT:
+    Origin: CRDC
+    Code: KF-GNINT
+    Version: '1'
+    Value: Gabriella Miller Kids First Pediatric Research Program in Genetics at the
+      Intersection of Childhood Cancer and Birth Defects
+    Definition: phs001846
+  H5C2:
+    Origin: CRDC
+    Code: H5C2
+    Version: '1'
+    Value: Health Information National Trends Survey HINTS 5 Cycle 2
+    Definition: phs004217
+  HINTS-SEER:
+    Origin: CRDC
+    Code: HINTS-SEER
+    Version: '1'
+    Value: Health Information National Trends Survey HINTS SEER
+    Definition: phs004065
+  CCDI_NIH_phs000720:
+    Origin: CRDC
+    Code: CCDI_NIH_phs000720
+    Version: '1'
+    Value: Genomic Sequencing of Pediatric Rhabdomyosarcoma
+    Definition: phs000720
+  CCDI_PIVOT_NBL_phs003163:
+    Origin: CRDC
+    Code: CCDI_PIVOT_NBL_phs003163
+    Version: '1'
+    Value: Childhood Cancer Data Initiative CCDI Pediatric In Vivo Testing Program
+      Neuroblastoma
+    Definition: phs003163
+  CCDI_NCI_phs003519:
+    Origin: CRDC
+    Code: CCDI_NCI_phs003519
+    Version: '1'
+    Value: Single Cell Atlas of NF1 Nerve Sheath Tumors
+    Definition: phs003519
+  CCDI_MSK_phs002620:
+    Origin: CRDC
+    Code: CCDI_MSK_phs002620
+    Version: '1'
+    Value: Feasibility and Clinical Utility of Whole Genome Profiling in Pediatric
+      and Young Adult Cancers
+    Definition: phs002620
+  Lung Cancer Genetic Study Among Asian Never Smokers:
+    Origin: CRDC
+    Code: Lung Cancer Genetic Study Among Asian Never Smokers
+    Version: '1'
+    Value: Lung Cancer Genetic Study Among Asian Never Smokers
+    Definition: phs002366
+  TALLsc:
+    Origin: CRDC
+    Code: TALLsc
+    Version: '1'
+    Value: T cell Acute Lymphoblastic Leukemia Single Cell RNA Sequencing and ATAC
+      Sequencing
+    Definition: phs003432
+  CCDI_DFCI:
+    Origin: CRDC
+    Code: CCDI_DFCI
+    Version: '1'
+    Value: Integrating Longitudinal Clinical Sociodemographic and Genomic Data into
+      the NCCR
+    Definition: phs002677
+  SICKKIDS:
+    Origin: CRDC
+    Code: SICKKIDS
+    Version: '1'
+    Value: Childhood Cancer Data Initiative CCDI Discovering the Timing and Origins
+      of Bone and Soft Tissue Cancers
+    Definition: phs002827
+  PRECINCT03:
+    Origin: CRDC
+    Code: PRECINCT03
+    Version: '1'
+    Value: Generation of tumor specific immunity in canine osteosarcoma through dendritic
+      cell hyperactivation
+    Definition: null
+  'CIDR: The Genetic Basis of Aggressive Prostate Cancer: The Role of Rare Variation':
+    Origin: CRDC
+    Code: 'CIDR: The Genetic Basis of Aggressive Prostate Cancer: The Role of Rare
+      Variation'
+    Version: '1'
+    Value: CIDR The Genetic Basis of Aggressive Prostate Cancer The Role of Rare Variation
+    Definition: phs001524
+  CIDR CRC:
+    Origin: CRDC
+    Code: CIDR CRC
+    Version: '1'
+    Value: Molecular Pathological Epidemiology of CRC
+    Definition: phs001905
+  MATCH-Z1D IHC:
+    Origin: CRDC
+    Code: MATCH-Z1D IHC
+    Version: '1'
+    Value: Genomic Characterization CS MATCH0007 Arm Z1D IHC
+    Definition: phs001859
+  COTC026:
+    Origin: CRDC
+    Code: COTC026
+    Version: '1'
+    Value: Evaluation of a Recombinant Attenuated Listeria monocytogenes Expressing
+      a Chimeric Human HER2 neu Protein in Dogs with Osteosarcoma in the Adjuvant
+      Setting
+    Definition: null
+  PRECINCT02:
+    Origin: CRDC
+    Code: PRECINCT02
+    Version: '1'
+    Value: Novel treatments for Diffuse large B cell lymphoma DLBCL in dogs
+    Definition: null
+  AHEP0731:
+    Origin: CRDC
+    Code: AHEP0731
+    Version: '1'
+    Value: Treatment of Children With All Stages of Hepatoblastoma With Temsirolimus
+      NSC 683864 Added to High Risk Stratum Treatment
+    Definition: phs004135
+  OSA01:
+    Origin: CRDC
+    Code: OSA01
+    Version: '1'
+    Value: A Multi Platform Sequencing Analysis of Canine Appendicular Osteosarcoma
+    Definition: ''
+  ROBIN-IMMUNORAD MCT1:
+    Origin: CRDC
+    Code: ROBIN-IMMUNORAD MCT1
+    Version: '1'
+    Value: ROBIN IMMUNORAD Molecular Characterization Trial 1
+    Definition: phs004315
+  UC01:
+    Origin: CRDC
+    Code: UC01
+    Version: '1'
+    Value: Whole exome sequencing analysis of canine urothelial carcinomas without
+      BRAF V595E mutation
+    Definition: ''
+  UBC02:
+    Origin: CRDC
+    Code: UBC02
+    Version: '1'
+    Value: Basal and Luminal Molecular Subtypes in Naturally Occurring Canine Urothelial
+      Carcinoma Are Associated With Tumor Immune Signatures and Dog Breed
+    Definition: ''
+  UBC01:
+    Origin: CRDC
+    Code: UBC01
+    Version: '1'
+    Value: Antitumor Activity and Molecular Effects of Vemurafenib in Dogs with BRAF
+      mutant Bladder Cancer
+    Definition: ''
+  TCL01:
+    Origin: CRDC
+    Code: TCL01
+    Version: '1'
+    Value: Whole exome sequencing analysis of canine cancer cell lines
+    Definition: ''
+  OSA04:
+    Origin: CRDC
+    Code: OSA04
+    Version: '1'
+    Value: A Transcriptomic Evaluation of Canine Osteosarcoma
+    Definition: null
+  CPTAC:
+    Origin: CRDC
+    Code: CPTAC
+    Version: '1'
+    Value: CPTAC Pan Cancer
+    Definition: phs001287
+  CPTAC-GBM:
+    Origin: CRDC
+    Code: CPTAC-GBM
+    Version: '1'
+    Value: The Clinical Proteomic Tumor Analysis Consortium Glioblastoma Multiforme
+      Collection
+    Definition: phs004225
+  S0800:
+    Origin: CRDC
+    Code: S0800
+    Version: '1'
+    Value: A Randomized Phase II Trial of Weekly Nanoparticle Albumin Bound Paclitaxel
+      Nab Paclitaxel NSC 736631 With or Without Bevacizumab Either Preceded by or
+      Followed by Q 2 Week Doxorubicin A and Cyclophosphamide C Plus Pegfilgrastim
+      PEG G as Neoadjuvant Therapy For Inflammatory and Locally Advanced HER 2 NEU
+      Negative Breast Cancer
+    Definition: phs004297
+  LDCT-and-Projection-data:
+    Origin: CRDC
+    Code: LDCT-and-Projection-data
+    Version: '1'
+    Value: Low Dose CT Image and Projection Data
+    Definition: phs004225
+  RIDER NEURO MRI:
+    Origin: CRDC
+    Code: RIDER NEURO MRI
+    Version: '1'
+    Value: RIDER NEURO MRI
+    Definition: phs004225
+  RHUH-GBM:
+    Origin: CRDC
+    Code: RHUH-GBM
+    Version: '1'
+    Value: The Rio Hortega University Hospital Glioblastoma dataset a comprehensive
+      collection of preoperative early postoperative and recurrence MRI scans
+    Definition: phs004225
+  QIN-BRAIN-DSC-MRI:
+    Origin: CRDC
+    Code: QIN-BRAIN-DSC-MRI
+    Version: '1'
+    Value: Glioma DSC MRI Perfusion Data with Standard Imaging and ROIs
+    Definition: phs004225
+  LGG-1p19qDeletion:
+    Origin: CRDC
+    Code: LGG-1p19qDeletion
+    Version: '1'
+    Value: LGG 1p19qDeletion
+    Definition: phs004225
+  RPA-Head-and-Neck-Lymph-Nodes:
+    Origin: CRDC
+    Code: RPA-Head-and-Neck-Lymph-Nodes
+    Version: '1'
+    Value: The Head and Neck Lymph Nodes Dataset Definitive Non contrast
+    Definition: phs004225
+  QIN GBM Treatment Response:
+    Origin: CRDC
+    Code: QIN GBM Treatment Response
+    Version: '1'
+    Value: QIN GBM Treatment Response
+    Definition: phs004225
+  Brain-Tumor-Progression:
+    Origin: CRDC
+    Code: Brain-Tumor-Progression
+    Version: '1'
+    Value: Brain Tumor Progression
+    Definition: phs004225
+  AAPM-RT-MAC:
+    Origin: CRDC
+    Code: AAPM-RT-MAC
+    Version: '1'
+    Value: AAPM RT MAC Grand Challenge 2019
+    Definition: phs004225
+  REMBRANDT:
+    Origin: CRDC
+    Code: REMBRANDT
+    Version: '1'
+    Value: REMBRANDT
+    Definition: phs004225
+  GammaKnife-Hippocampal:
+    Origin: CRDC
+    Code: GammaKnife-Hippocampal
+    Version: '1'
+    Value: Gamma Knife MR CT RTSTRUCT Sets With Hippocampal Contours
+    Definition: phs004225
+  Meningioma-SEG-CLASS:
+    Origin: CRDC
+    Code: Meningioma-SEG-CLASS
+    Version: '1'
+    Value: Segmentation and Classification of Grade I and II Meningiomas from Magnetic
+      Resonance Imaging An Open Annotated Dataset
+    Definition: phs004225
+  Healthy-Total-Body-CTs:
+    Origin: CRDC
+    Code: Healthy-Total-Body-CTs
+    Version: '1'
+    Value: Low Dose CT Images of Healthy Cohort
+    Definition: phs004225
+  Anti-PD-1_MELANOMA:
+    Origin: CRDC
+    Code: Anti-PD-1_MELANOMA
+    Version: '1'
+    Value: Anti PD 1 Immunotherapy Melanoma
+    Definition: phs004225
+  ACRIN-DSC-MR-Brain:
+    Origin: CRDC
+    Code: ACRIN-DSC-MR-Brain
+    Version: '1'
+    Value: ACRIN 6677 RTOG 0625
+    Definition: phs004225
+  Burdenko-GBM-Progression:
+    Origin: CRDC
+    Code: Burdenko-GBM-Progression
+    Version: '1'
+    Value: Burdenko s Glioblastoma Progression Dataset
+    Definition: phs004225
+  GLIS-RT:
+    Origin: CRDC
+    Code: GLIS-RT
+    Version: '1'
+    Value: Glioma Image Segmentation for Radiotherapy RT targets barriers to cancer
+      spread and organs at risk
+    Definition: phs004225
+  Brain-TR-GammaKnife:
+    Origin: CRDC
+    Code: Brain-TR-GammaKnife
+    Version: '1'
+    Value: Brain Tumor Recurrence Prediction after Gamma Knife Radiotherapy from MRI
+      and Related DICOM RT An Open Annotated Dataset and Baseline Algorithm
+    Definition: phs004225
+  ACRIN-HNSCC-FDG-PET-CT:
+    Origin: CRDC
+    Code: ACRIN-HNSCC-FDG-PET-CT
+    Version: '1'
+    Value: ACRIN 6685
+    Definition: phs004225
+  IvyGAP:
+    Origin: CRDC
+    Code: IvyGAP
+    Version: '1'
+    Value: Ivy Glioblastoma Atlas Project
+    Definition: phs004225
+  FDG-PET-CT-Lesions:
+    Origin: CRDC
+    Code: FDG-PET-CT-Lesions
+    Version: '1'
+    Value: A whole body FDG PET CT dataset with manually annotated tumor lesions
+    Definition: phs004225
+  QIN-HEADNECK:
+    Origin: CRDC
+    Code: QIN-HEADNECK
+    Version: '1'
+    Value: QIN HEADNECK
+    Definition: phs004225
+  HNC-IMRT-70-33:
+    Origin: CRDC
+    Code: HNC-IMRT-70-33
+    Version: '1'
+    Value: CT RTSTRUCT RTDOSE RTPLAN Sets of Head and Neck Cancers Treated with Identical
+      Prescriptions using IMRT An Open Dataset for Deep Learning in Treatment Planning
+    Definition: phs004225
+  HEAD-NECK-RADIOMICS-HN1:
+    Origin: CRDC
+    Code: HEAD-NECK-RADIOMICS-HN1
+    Version: '1'
+    Value: HEAD NECK RADIOMICS HN1
+    Definition: phs004225
+  Head-Neck Cetuximab:
+    Origin: CRDC
+    Code: Head-Neck Cetuximab
+    Version: '1'
+    Value: Head Neck Cetuximab
+    Definition: phs004225
+  HNSCC-3DCT-RT:
+    Origin: CRDC
+    Code: HNSCC-3DCT-RT
+    Version: '1'
+    Value: Head and neck squamous cell carcinoma patients with CT taken during pre
+      treatment mid treatment and post treatment
+    Definition: phs004225
+  Head-Neck-PET-CT:
+    Origin: CRDC
+    Code: Head-Neck-PET-CT
+    Version: '1'
+    Value: Head Neck PET CT
+    Definition: phs004225
+  TCGA-LGG:
+    Origin: CRDC
+    Code: TCGA-LGG
+    Version: '1'
+    Value: The Cancer Genome Atlas Low Grade Glioma Collection
+    Definition: phs004225
+  HDLP 2024:
+    Origin: CRDC
+    Code: HDLP 2024
+    Version: '1'
+    Value: HINTS Data Linkage Project 2024 HINTS 7
+    Definition: phs004213
+  HDLP 2022:
+    Origin: CRDC
+    Code: HDLP 2022
+    Version: '1'
+    Value: HINTS Data Linkage Project 2022 HINTS 6
+    Definition: phs004214
+  HDLP 2020:
+    Origin: CRDC
+    Code: HDLP 2020
+    Version: '1'
+    Value: HINTS Data Linkage Project 2020 HINTS 5 Cycle 4
+    Definition: phs004215
+  H5C1:
+    Origin: CRDC
+    Code: H5C1
+    Version: '1'
+    Value: Health Information National Trends Survey HINTS 5 Cycle 1
+    Definition: phs004210
+  H4C4:
+    Origin: CRDC
+    Code: H4C4
+    Version: '1'
+    Value: Health Information National Trends Survey HINTS 4 Cycle 4
+    Definition: phs004209
+  H4C3:
+    Origin: CRDC
+    Code: H4C3
+    Version: '1'
+    Value: Health Information National Trends Survey HINTS 4 Cycle 3
+    Definition: phs004208
+  H4C2:
+    Origin: CRDC
+    Code: H4C2
+    Version: '1'
+    Value: Health Information National Trends Survey HINTS 4 Cycle 2
+    Definition: phs004207
+  CCDI_PIVOT_UTSanAntonio:
+    Origin: CRDC
+    Code: CCDI_PIVOT_UTSanAntonio
+    Version: '1'
+    Value: Childhood Cancer Data Initiative CCDI Pediatric In Vivo Testing Program
+      Sarcoma Kidney and Liver Cancers
+    Definition: phs003160
+  H4C1:
+    Origin: CRDC
+    Code: H4C1
+    Version: '1'
+    Value: Health Information National Trends Survey HINTS 4 Cycle 1
+    Definition: phs004212
+  RADCURE:
+    Origin: CRDC
+    Code: RADCURE
+    Version: '1'
+    Value: Computed Tomography Images from Large Head and Neck Cohort
+    Definition: phs004225
+  HNSCC:
+    Origin: CRDC
+    Code: HNSCC
+    Version: '1'
+    Value: HNSCC
+    Definition: phs004225
+  TCGA-HNSC:
+    Origin: CRDC
+    Code: TCGA-HNSC
+    Version: '1'
+    Value: The Cancer Genome Atlas Head Neck Squamous Cell Carcinoma Collection
+    Definition: phs004225
+  TCGA-GBM:
+    Origin: CRDC
+    Code: TCGA-GBM
+    Version: '1'
+    Value: The Cancer Genome Atlas Glioblastoma Multiforme Collection
+    Definition: phs004225
+  CPTAC-HNSCC:
+    Origin: CRDC
+    Code: CPTAC-HNSCC
+    Version: '1'
+    Value: The Clinical Proteomic Tumor Analysis Consortium Head and Neck Squamous
+      Cell Carcinoma Collection
+    Definition: phs004225
+  KF-ESGR:
+    Origin: CRDC
+    Code: KF-ESGR
+    Version: '1'
+    Value: Gabriella Miller Kids First GMKF Pediatric Research Program in Susceptibility
+      to Ewing Sarcoma Based on Germline Risk and Familial History of Cancer
+    Definition: phs001228
+  AREN0532:
+    Origin: CRDC
+    Code: AREN0532
+    Version: '1'
+    Value: Treatment for Very Low and Standard Risk Favorable Histology Wilms Tumor
+    Definition: phs004139
+  PLCO:
+    Origin: CRDC
+    Code: PLCO
+    Version: '1'
+    Value: The Prostate Lung Colorectal and Ovarian Cancer Screening Trial
+    Definition: null
+  NLST:
+    Origin: CRDC
+    Code: NLST
+    Version: '1'
+    Value: The National Lung Screening Trial
+    Definition: null
+  PBCS:
+    Origin: CRDC
+    Code: PBCS
+    Version: '1'
+    Value: The Polish Breast Cancer Study
+    Definition: null
+  SJFAMILY-HM:
+    Origin: CRDC
+    Code: SJFAMILY-HM
+    Version: '1'
+    Value: Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic
+      Malignancies
+    Definition: phs001738
+  KF-MMC:
+    Origin: CRDC
+    Code: KF-MMC
+    Version: '1'
+    Value: Gabriella Miller Kids First Pediatric Research Program in Germline and
+      Somatic Variants in Myeloid Malignancies in Children
+    Definition: phs002187
+  KF-OS:
+    Origin: CRDC
+    Code: KF-OS
+    Version: '1'
+    Value: Gabriella Miller Kids First Pediatric Research Program An Integrated Clinical
+      and Genomic Analysis of Treatment Failure in Pediatric Osteosarcoma
+    Definition: phs001714
+  CEMSHRN:
+    Origin: CRDC
+    Code: CEMSHRN
+    Version: '1'
+    Value: Clonal evolution during metastatic spread in high rish neuroblastoma
+    Definition: phs003111
+  MOSP:
+    Origin: CRDC
+    Code: MOSP
+    Version: '1'
+    Value: Metastatic Osteosarcoma Spatial Profiling
+    Definition: phs003975
+  JMML:
+    Origin: CRDC
+    Code: JMML
+    Version: '1'
+    Value: UCSF Database for the Advancement of JMML Integration of Metadata with
+      Omic Data
+    Definition: phs002504
+  CCDI_UCSF_phs002430:
+    Origin: CRDC
+    Code: CCDI_UCSF_phs002430
+    Version: '1'
+    Value: Genomic Analysis in Pediatric Malignancies
+    Definition: phs002430
+  ACRIN-FMISO-Brain:
+    Origin: CRDC
+    Code: ACRIN-FMISO-Brain
+    Version: '1'
+    Value: ACRIN 6684
+    Definition: phs004225
+  NCATS-COP01:
+    Origin: CRDC
+    Code: NCATS-COP01
+    Version: '1'
+    Value: Models for Diagnosis and Treatment of Human Cancers Using Comparative Canine
+      Human Transcriptomics
+    Definition: null
+  PRECINCT01:
+    Origin: CRDC
+    Code: PRECINCT01
+    Version: '1'
+    Value: Inhaled IL 15 Immunotherapy for Treatment of Lung Metastases from primary
+      osteosarcoma or melanoma
+    Definition: null
+  UBC03:
+    Origin: CRDC
+    Code: UBC03
+    Version: '1'
+    Value: Transcriptomic analyses of early stage bladder cancer in Scottish Terriers
+      detected through screening
+    Definition: null
+  OSA02:
+    Origin: CRDC
+    Code: OSA02
+    Version: '1'
+    Value: Association of canine osteosarcoma outcomes with clinical genomic mutation
+      and transcriptomic expression profiles
+    Definition: ''
+  STS01:
+    Origin: CRDC
+    Code: STS01
+    Version: '1'
+    Value: Genomic Transcriptomic Analysis of Canine Soft Tissue Sarcomas
+    Definition: ''
+  ORGANOIDS01:
+    Origin: CRDC
+    Code: ORGANOIDS01
+    Version: '1'
+    Value: Characterization of Healthy Diseased and Cancer Canine Organoids for Applications
+      in Personalized Medicine and Translational Research
+    Definition: ''
+  NCI MATCH screening data:
+    Origin: CRDC
+    Code: NCI MATCH screening data
+    Version: '1'
+    Value: NCI MATCH screening data
+    Definition: null
+  MP2PRT-OPC:
+    Origin: CRDC
+    Code: MP2PRT-OPC
+    Version: '1'
+    Value: Characterization of tumor immune microenvironment in HPV associated oropharynx
+      cancer
+    Definition: phs003089.v1
+  BraTS-Africa:
+    Origin: CRDC
+    Code: BraTS-Africa
+    Version: '1'
+    Value: Expanding the Brain Tumor Segmentation BraTS data to include African Populations
+    Definition: phs004225
+  CCDI_MSK_phs003111:
+    Origin: CRDC
+    Code: CCDI_MSK_phs003111
+    Version: '1'
+    Value: Childhood Cancer Data Initiative CCDI Clonal Evolution During Metastatic
+      Spread in High Risk Neuroblastoma
+    Definition: phs003111
+  MGT01:
+    Origin: CRDC
+    Code: MGT01
+    Version: '1'
+    Value: Molecular Homology and Differences Between Spontaneous Canine Mammary Cancer
+      and Human Breast Cancer
+    Definition: ''
+  AHOD0831:
+    Origin: CRDC
+    Code: AHOD0831
+    Version: '1'
+    Value: A Non Randomized Phase III Study of Response Adapted Therapy for the Treatment
+      of Children With Newly Diagnosed High Risk Hodgkin Lymphoma
+    Definition: phs004161
+  ARAR0331:
+    Origin: CRDC
+    Code: ARAR0331
+    Version: '1'
+    Value: Treatment of Childhood Nasopharyngeal Carcinoma With Neoadjuvant Chemotherapy
+      and Concomitant Chemoradiotherapy A Groupwide Phase III Study
+    Definition: phs004296
+  A091105:
+    Origin: CRDC
+    Code: A091105
+    Version: '1'
+    Value: A Phase III Double Blind Randomized Placebo Controlled Trial of Sorafenib
+      in Desmoid Tumors or Aggressive Fibromatosis DT DF
+    Definition: phs004295
+  AREN0534:
+    Origin: CRDC
+    Code: AREN0534
+    Version: '1'
+    Value: Treatment for Patients With Bilateral Multicentric or Bilaterally Predisposed
+      Unilateral Wilms Tumor
+    Definition: phs004158
+  AREN0533:
+    Origin: CRDC
+    Code: AREN0533
+    Version: '1'
+    Value: Treatment of Newly Diagnosed Higher Risk Favorable Histology Wilms Tumors
+    Definition: phs004140
+  CALGB-50303:
+    Origin: CRDC
+    Code: CALGB-50303
+    Version: '1'
+    Value: Phase III Randomized Study of R CHOP V Dose Adjusted EPOCH R With Molecular
+      Profiling in Untreated De Novo Diffuse Large B Cell Lymphomas
+    Definition: phs004192
+  ACNS0332:
+    Origin: CRDC
+    Code: ACNS0332
+    Version: '1'
+    Value: Efficacy of Carboplatin Administered Concomitantly With Radiation and Isotretinoin
+      as a Pro Apoptotic Agent in Other Than Average Risk Medulloblastoma PNET Patients
+    Definition: phs004122
+  Discovery of Colorectal Cancer Susceptibility Genes in High-Risk Families:
+    Origin: CRDC
+    Code: Discovery of Colorectal Cancer Susceptibility Genes in High-Risk Families
+    Version: '1'
+    Value: Discovery of Colorectal Cancer Susceptibility Genes in High Risk Families
+    Definition: phs001787
+  GECCO OICR:
+    Origin: CRDC
+    Code: GECCO OICR
+    Version: '1'
+    Value: GECCO OICR Molecular Pathological Epidemiology of Colorectal Cancer
+    Definition: phs002050
+  Detection of Colorectal Cancer Susceptibility Loci Using Genome-Wide Sequencing:
+    Origin: CRDC
+    Code: Detection of Colorectal Cancer Susceptibility Loci Using Genome-Wide Sequencing
+    Version: '1'
+    Value: Detection of Colorectal Cancer Susceptibility Loci Using Genome Wide Sequencing
+    Definition: phs001554
+  CCSS:
+    Origin: CRDC
+    Code: CCSS
+    Version: '1'
+    Value: Childhood Cancer Survivor Study
+    Definition: phs001327
+  LILAC:
+    Origin: CRDC
+    Code: LILAC
+    Version: '1'
+    Value: Life and Longevity After Cancer
+    Definition: null
+  PPTC:
+    Origin: CRDC
+    Code: PPTC
+    Version: '1'
+    Value: Pediatric Preclinical Testing Consortium PPTC PDX Data Models
+    Definition: phs001437
+  S0819:
+    Origin: CRDC
+    Code: S0819
+    Version: '1'
+    Value: A Randomized Phase III Study Comparing Carboplatin Paclitaxel or Carboplatin
+      Paclitaxel Bevacizumab With or Without Concurrent Cetuximab in Patients With
+      Advanced Non small Cell Lung Cancer NSCLC
+    Definition: phs004231
+  RTOG-0617:
+    Origin: CRDC
+    Code: RTOG-0617
+    Version: '1'
+    Value: A Randomized Phase III Comparison of Standard Dose 60 Gy Versus High Dose
+      74 Gy Conformal Radiotherapy With Concurrent and Consolidation Carboplatin Paclitaxel
+      Cetuximab IND 103444 in Patients With Stage IIIA IIIB Non Small Cell Lung Cancer
+    Definition: phs004191
+  PSMA-PET-CT-Lesions:
+    Origin: CRDC
+    Code: PSMA-PET-CT-Lesions
+    Version: '1'
+    Value: A whole body PSMA PET CT dataset with manually annotated tumor lesions
+    Definition: phs004225

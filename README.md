@@ -45,6 +45,7 @@ bento-edps/
 |:-------------------|:--------|:--------|:----------------------------------|:--------------------------|
 | `obib_terms_valueset`  | CRDC   | CRDC0002  | Standardized permissible values (from OBIB) describing biological specimens   | `terms/obib-terms.yml`  |
 | `qa_test_valueset`  | CRDC   | CRDC0005  | QA-only test EDP for DATATEAM-595 pipeline verification (not for production)   | `terms/qa-test-terms.yml`  |
+| `crdc_studyname_valueset` | CRDC | CRDC0006 | Official Study names and abbreviaations for CRDC submissions | `terms/crdcStudies-terms.yml` |
 *(Add a row here each time a new EDP is introduced.)*
 
 ## EDP definition format
