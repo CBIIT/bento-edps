@@ -158,7 +158,7 @@ PropDefinitions:
     - Origin: CRDC
       Definition: Official study names for CRDC
       Code: CRDC0008
-      Version: 1
+      Version: "1"
       Value: Official study names for CRDC
     Enum:
     - OSA04
