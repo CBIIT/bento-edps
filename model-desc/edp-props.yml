@@ -151,3 +151,147 @@ PropDefinitions:
     Enum:
       - "qa_test_alpha"
       - "qa_test_beta"
+  crdc_study_names:
+    Desc: Official study names for CRDC
+    Ext: true
+    Term:
+    - Origin: CRDC
+      Definition: Official study names for CRDC
+      Code: CRDC0008
+      Version: 1
+      Value: Official study names for CRDC
+    Enum:
+    - OSA04
+    - CPTAC-GBM
+    - PRECINCT03
+    - LDCT-and-Projection-data
+    - RIDER NEURO MRI
+    - RHUH-GBM
+    - QIN-BRAIN-DSC-MRI
+    - LGG-1p19qDeletion
+    - RPA-Head-and-Neck-Lymph-Nodes
+    - QIN GBM Treatment Response
+    - Brain-Tumor-Progression
+    - AAPM-RT-MAC
+    - REMBRANDT
+    - GammaKnife-Hippocampal
+    - Meningioma-SEG-CLASS
+    - Healthy-Total-Body-CTs
+    - Anti-PD-1_MELANOMA
+    - ACRIN-DSC-MR-Brain
+    - Burdenko-GBM-Progression
+    - GLIS-RT
+    - Brain-TR-GammaKnife
+    - ACRIN-HNSCC-FDG-PET-CT
+    - IvyGAP
+    - FDG-PET-CT-Lesions
+    - QIN-HEADNECK
+    - HNC-IMRT-70-33
+    - HEAD-NECK-RADIOMICS-HN1
+    - Head-Neck Cetuximab
+    - HNSCC-3DCT-RT
+    - Head-Neck-PET-CT
+    - TCGA-LGG
+    - 18-279
+    - GU16-257
+    - RADCURE
+    - HNSCC
+    - TCGA-HNSC
+    - TCGA-GBM
+    - CPTAC-HNSCC
+    - CCSS
+    - LILAC
+    - PLCO
+    - NLST
+    - KF-ESGR
+    - SJFAMILY-HM
+    - KF-GNINT
+    - PPTC
+    - MOSP
+    - CCDI_UCSF_phs002430
+    - JMML
+    - CEMSHRN
+    - ACRIN-FMISO-Brain
+    - PBCS
+    - NCATS-COP01
+    - PRECINCT01
+    - UBC03
+    - AREN0533
+    - CCDI_MSK_phs003111
+    - MP2PRT-CESC
+    - OSA02
+    - STS01
+    - ORGANOIDS01
+    - CCDI_USC
+    - AHOD0831
+    - S0819
+    - RTOG-0617
+    - CCDI_PIVOT_UTSanAntonio
+    - MP2PRT-OPC
+    - CCDI-KUMC
+    - Michigan
+    - KF-T-ALL
+    - QIN-SARCOMA
+    - TEXAS PEDIATRIC PDX
+    - KF-IGCT
+    - CCDI_PIVOT_NBL_phs003163
+    - CCDI_MSK_phs002620
+    - HTAN image
+    - CIDR CRC
+    - COTC026
+    - SICKKIDS
+    - OSA01
+    - ROBIN-IMMUNORAD MCT1
+    - UC01
+    - UBC01
+    - TCL01
+    - S0800
+    - PRECINCT02
+    - AREN0532
+    - NCI MATCH screening data
+    - BraTS-Africa
+    - MGT01
+    - WABCS
+    - ARAR0331
+    - A091105
+    - AREN0534
+    - CALGB-50303
+    - ACNS0332
+    - HINTS-SEER
+    - HDLP 2020
+    - HDLP 2024
+    - HDLP 2022
+    - H5C2
+    - H5C1
+    - H4C4
+    - H4C3
+    - H4C2
+    - H4C1
+    - Lung Cancer Genetic Study Among Asian Never Smokers
+    - Discovery of Colorectal Cancer Susceptibility Genes in High-Risk Families
+    - GECCO OICR
+    - Detection of Colorectal Cancer Susceptibility Loci Using Genome-Wide Sequencing
+    - Whole Genome Sequencing to Discover Familial Myeloma Risk Genes
+    - H5C3
+    - AHEP0731
+    - CCDI
+    - COTC022
+    - COTC021
+    - PSMA-PET-CT-Lesions
+    - COTC030
+    - caNanoLab
+    - MATCH-Z1D IHC
+    - UBC02
+    - HTAN
+    - CBTN
+    - TALLsc
+    - CCDI_NCI_phs003519
+    - CCDI_DFCI
+    - CCDI_PIVOT_LEU
+    - CCDI_NIH_phs000720
+    - KF-OS
+    - KF-MMC
+    - KF-NCSF
+    - 'CIDR: The Genetic Basis of Aggressive Prostate Cancer: The Role of Rare Variation'
+    - CMB
+    - CPTAC
