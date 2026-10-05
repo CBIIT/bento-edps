@@ -15,7 +15,7 @@ EDPs are defined here and processed by the Model Database ([MDB](https://github.
 ## How EDPs flow into the MDB
 
 1. EDP definitions are committed to this repo, under [`model-desc`](/model-desc).
-2. A weekly scheduled check in [bento-mdb](https://github.com/CBIIT/bento-mdb) polls this repo for changes.
+2. A daily scheduled check in [bento-mdb](https://github.com/CBIIT/bento-mdb) polls this repo for changes.
 3. When a change is detected, bento-mdb generates a changelog that creates or updates the EDP term, its value_set, and all PV terms in the MDB graph:
 
     `(edp:term)-[:specifies_value_set]->(vs:value_set)-[:has_term]->(pv:term)`
@@ -27,25 +27,28 @@ EDPs are defined here and processed by the Model Database ([MDB](https://github.
 
 ```text
 bento-edps/
-├── github/
-│   ├── model-test-and-deploy.yml/
+├── .github/
+│   ├── model-test-and-deploy.yml
 ├── model-desc/
-│   ├── edp-props.yml 
-│   └── terms/
-│       ├── obib-terms.yml
+│   └── edps/
+│       └── <edp-property-handle>/
+│           ├── edp-props.yml
+│           └── terms.yml
 ├── README.md
 └── pyproject.toml
 ```
 
-- **`edp-props.yml`** declares each EDP itself — its identity (`Term`) and the list of permissible values it currently contains (`Enum`).
-- **`terms/*.yml`** files per edp provide richer definitions (codes, versions, definitions) for the individual PVs referenced in `Enum`, keyed by value. Splitting these out keeps `edp-props.yml` readable and lets each external vocabulary's term metadata live in its own file as the library grows.
+- **`edps/<property-handle>/edp-props.yml`** declares each EDP itself — its identity (`Term`) and the list of permissible values it currently contains (`Enum`).
+- **`edps/<property-handle>/terms.yml`** provides the term definitions
+  for the permissible values belonging to that EDP.
+
 
 ## Available EDPs
 | EDP Handle         | Origin  |  Code   | Description                       | Terms file                |
 |:-------------------|:--------|:--------|:----------------------------------|:--------------------------|
-| `obib_terms_valueset`  | CRDC   | CRDC0002  | Standardized permissible values (from OBIB) describing biological specimens   | `terms/obib-terms.yml`  |
-| `qa_test_valueset`  | CRDC   | CRDC0005  | QA-only test EDP for DATATEAM-595 pipeline verification (not for production)   | `terms/qa-test-terms.yml`  |
-| `crdc_study_names` | CRDC | CRDC0008 | Official Study names and abbreviaations for CRDC submissions | `terms/crdc-studynames-terms.yml` |
+| `obib_terms_valueset`  | CRDC   | CRDC0002  | Standardized permissible values (from OBIB) describing biological specimens   | `edps/obib_terms_valueset/terms.yml`  |
+| `qa_test_valueset`  | CRDC   | CRDC0005  | QA-only test EDP for DATATEAM-595 pipeline verification (not for production)   | `edps/qa_test_valueset/terms.yml`  |
+| `crdc_study_names` | CRDC | CRDC0008 | Official Study names and abbreviaations for CRDC submissions | `edps/crdc_study_names/terms.yml` |
 *(Add a row here each time a new EDP is introduced.)*
 
 ## EDP definition format
@@ -70,7 +73,7 @@ PropDefinitions:
 ```
 
 ## Term definitions file format 
-Each value in an EDP's Enum list is enriched with metadata in the corresponding `terms/*.yml` file:
+Each value in an EDP's Enum list is enriched with metadata in the adjacent `terms.yml` file:
 
 ```yaml
 Terms:
@@ -111,11 +114,16 @@ PropDefinitions:
  ```
 Once wired up, the MDB update pipeline recognizes that the property's value set is EDP-backed and will simply link the property's CDE to the shared EDP value_set in the MDB using a :specifies_value_set relationship. 
 
-## Adding a new EDP 
+## Adding a new EDP
 
-- Add a new entry under `PropDefinitions` in `edp-props.yml` following the format above. Choose a clear, unique <edp_handle> and Code.
-- Create a new terms/<source>-terms.yml file with term definitions for each value in your Enum list.
-- Open a PR. Once merged to main, the weekly poll in bento-mdb will pick up the change automatically and propagate it to the MDB on the next run.
+1. Create `model-desc/edps/<property-handle>/`.
+2. Add `edp-props.yml` containing exactly one `Ext: true`
+   `PropDefinitions` entry.
+3. The directory name must match the property handle.
+4. Add `terms.yml` containing the definitions for that EDP's Enum values.
+5. Increment the EDP version whenever its permissible-value contents change.
+6. Open a pull request. Repository validation discovers all EDP packages
+   automatically.
 
 
 ## Updating an existing EDP 
