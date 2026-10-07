@@ -8,8 +8,9 @@ PropDefinitions:
       - Origin: CRDC
         Definition: Throwaway test EDP to verify bento-edps to MDB to STS create flow.
         Code: "CRDC0005"
-        Version: "1"
+        Version: "2"
         Value: QA Test Value Set
     Enum:
       - "qa_test_alpha"
       - "qa_test_beta"
+      - "qa_test_gamma"
