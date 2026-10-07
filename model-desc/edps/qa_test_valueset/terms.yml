@@ -11,3 +11,9 @@ Terms:
     Version: "1"
     Value: qa_test_beta
     Definition: "QA test permissible value beta for DATATEAM-595 EDP pipeline verification."
+  qa_test_gamma:
+    Origin: CRDC
+    Code: "QA0003"
+    Version: "1"
+    Value: qa_test_gamma
+    Definition: "QA test permissible value gamma for DATATEAM-724 package workflow verification."
