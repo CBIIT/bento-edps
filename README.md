@@ -46,9 +46,10 @@ bento-edps/
 ## Available EDPs
 | EDP Handle         | Origin  |  Code   | Description                       | Terms file                |
 |:-------------------|:--------|:--------|:----------------------------------|:--------------------------|
-| `obib_terms_valueset`  | CRDC   | CRDC0002  | Standardized permissible values (from OBIB) describing biological specimens   | `edps/obib_terms_valueset/terms.yml`  |
-| `qa_test_valueset`  | CRDC   | CRDC0005  | QA-only test EDP for DATATEAM-595 pipeline verification (not for production)   | `edps/qa_test_valueset/terms.yml`  |
-| `crdc_study_names` | CRDC | CRDC0008 | Official Study names and abbreviaations for CRDC submissions | `edps/crdc_study_names/terms.yml` |
+| `uberon_valueset_reference`| CRDC | CRDC001 | UBERON human anatomy terms (and codes) | N/A (direct MDB ingestion) |
+| `obib_terms_valueset`  | CRDC   | CRDC0002  | Standardized permissible values (from OBIB) describing biological specimens   | edps/obib_terms_valueset/terms.yml |
+| `qa_test_valueset`  | CRDC   | CRDC0005  | QA-only test EDP for DATATEAM-595 pipeline verification (not for production)   | `/edps/qa_test_valueset/terms.yml`  |
+| `crdc_study_names` | CRDC | CRDC0008 | Official Study names and abbreviaations for CRDC submissions | `/edps/crdc_study_names/terms.yml` |
 *(Add a row here each time a new EDP is introduced.)*
 
 ## EDP definition format
