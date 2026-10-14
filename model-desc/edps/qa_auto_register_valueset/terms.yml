@@ -1,0 +1,13 @@
+Terms:
+  qa_auto_reg_alpha:
+    Origin: CRDC
+    Code: "QA7001"
+    Version: "1"
+    Value: qa_auto_reg_alpha
+    Definition: "QA permissible value alpha for auto-register EDP pipeline verification (CRDC0007)."
+  qa_auto_reg_beta:
+    Origin: CRDC
+    Code: "QA7002"
+    Version: "1"
+    Value: qa_auto_reg_beta
+    Definition: "QA permissible value beta for auto-register EDP pipeline verification (CRDC0007)."

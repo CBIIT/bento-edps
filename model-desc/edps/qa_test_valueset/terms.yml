@@ -17,3 +17,9 @@ Terms:
     Version: "1"
     Value: qa_test_gamma
     Definition: "QA test permissible value gamma for DATATEAM-724 package workflow verification."
+  qa_test_delta:
+    Origin: CRDC
+    Code: "QA0004"
+    Version: "1"
+    Value: qa_test_delta
+    Definition: "QA test permissible value delta for DATATEAM-724 v3 EDP update verification."
