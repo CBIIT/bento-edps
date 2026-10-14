@@ -1,0 +1,15 @@
+Nodes: {}
+Relationships: {}
+PropDefinitions:
+  qa_auto_register_valueset:
+    Desc: QA-only EDP to verify automatic registration from bento-edps into MDB. Not for production model use.
+    Ext: true
+    Term:
+      - Origin: CRDC
+        Definition: QA-only EDP to verify automatic registration from bento-edps into MDB.
+        Code: "CRDC0007"
+        Version: "1"
+        Value: QA EDP Auto Register Test
+    Enum:
+      - "qa_auto_reg_alpha"
+      - "qa_auto_reg_beta"
