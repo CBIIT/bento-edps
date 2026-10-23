@@ -1,0 +1,13 @@
+Terms:
+  qa_dedupe_alpha:
+    Origin: CRDC
+    Code: "QA9901"
+    Version: "1"
+    Value: qa_dedupe_alpha
+    Definition: "QA permissible value alpha for DATATEAM-789 value_set reuse verification (CRDC0099)."
+  qa_dedupe_beta:
+    Origin: CRDC
+    Code: "QA9902"
+    Version: "1"
+    Value: qa_dedupe_beta
+    Definition: "QA permissible value beta for DATATEAM-789 value_set reuse verification (CRDC0099)."

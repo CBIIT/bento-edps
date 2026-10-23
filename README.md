@@ -51,6 +51,7 @@ bento-edps/
 | `qa_test_valueset`  | CRDC   | CRDC0005  | QA-only test EDP for DATATEAM-595 pipeline verification (not for production)   | `/edps/qa_test_valueset/terms.yml`  |
 | `qa_auto_register_valueset`  | CRDC   | CRDC0007  | QA-only EDP for auto-register from bento-edps into MDB (not for production)   | `/edps/qa_auto_register_valueset/terms.yml`  |
 | `crdc_study_names` | CRDC | CRDC0008 | Official Study names and abbreviaations for CRDC submissions | `/edps/crdc_study_names/terms.yml` |
+| `qa_dedupe_valueset`  | CRDC   | CRDC0099  | QA-only EDP for DATATEAM-789 value_set reuse after auto-register (not for production)   | `/edps/qa_dedupe_valueset/terms.yml`  |
 *(Add a row here each time a new EDP is introduced.)*
 
 ## EDP definition format
