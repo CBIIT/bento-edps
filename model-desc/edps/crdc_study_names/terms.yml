@@ -495,7 +495,7 @@ Terms:
     Origin: CRDC
     Code: CIDR CRC
     Version: 1
-    Value: Molecular Pathological Epidemiology of CRC
+    Value: CIDR: Molecular Pathological Epidemiology of CRC
     Definition: phs001905
   COTC026:
     Origin: CRDC
@@ -705,15 +705,39 @@ Terms:
     Version: 1
     Value: 'GECCO OICR: Molecular Pathological Epidemiology of Colorectal Cancer'
     Definition: phs002050
-  Detection of Colorectal Cancer Susceptibility Loci Using Genome-Wide Sequencing:
+  DoCCSLUGWS:
     Origin: CRDC
-    Code: Detection of Colorectal Cancer Susceptibility Loci Using Genome-Wide Sequencing
+    Code: DoCCSLUGWS
     Version: 1
     Value: Detection of Colorectal Cancer Susceptibility Loci Using Genome-Wide Sequencing
     Definition: phs001554
-  Whole Genome Sequencing to Discover Familial Myeloma Risk Genes:
+  GW-GDIT:
     Origin: CRDC
-    Code: Whole Genome Sequencing to Discover Familial Myeloma Risk Genes
+    Code: GW-GDIT
+    Version: 1
+    Value: TCGA WGS Variants Across 18 Cancer Types
+    Definition: phs003155   
+  LCCC1108:
+    Origin: CRDC
+    Code: LCCC1108
+    Version: 1
+    Value: LCCC 1108: Development of a Tumor Molecular Analyses Program and Its Use to Support Treatment Decisions (UNCseqTM)
+    Definition: phs001713 
+  DBaRoIViG:
+    Origin: CRDC
+    Code: DBaRoIViG
+    Version: 1
+    Value: CIDR: Discovery, Biology, and Risk of Inherited Variants in Glioma
+    Definition: phs002250
+  CIDR Agg Prostate Cancer:
+    Origin: CRDC
+    Code: CIDR Agg Prostate Cancer
+    Version: 1
+    Value: The Role of Rare Coding Variation in Prostate Cancer in Men of African Ancestry - RESPOND Project 2
+    Definition: phs002637
+  WGSDFMRG:
+    Origin: CRDC
+    Code: WGSDFMRG
     Version: 1
     Value: Whole Genome Sequencing to Discover Familial Myeloma Risk Genes
     Definition: phs001819
@@ -849,13 +873,11 @@ Terms:
     Value: Gabriella Miller Kids First Pediatric Research Program in Novel Cancer
       Susceptibility in Families (from BASIC3)
     Definition: phs001878
-  'CIDR: The Genetic Basis of Aggressive Prostate Cancer: The Role of Rare Variation':
+  Aggr Prostate Cancer:
     Origin: CRDC
-    Code: 'CIDR: The Genetic Basis of Aggressive Prostate Cancer: The Role of Rare
-      Variation'
+    Code: Agg Prostate Cancer
     Version: 1
-    Value: 'CIDR: The Genetic Basis of Aggressive Prostate Cancer: The Role of Rare
-      Variation'
+    Value: CIDR: The Genetic Basis of Aggressive Prostate Cancer, The Role of Rare Variation
     Definition: phs001524
   CMB:
     Origin: CRDC
@@ -863,6 +885,42 @@ Terms:
     Version: 1
     Value: CM Biobank
     Definition: phs002192
+  CPTAC:
+    Origin: CRDC
+    Code: CPTAC
+    Version: 1
+    Value: CPTAC Pan-Cancer
+    Definition: phs001287
+  caNanolab:
+    Origin: CRDC
+    Code: caNanolab
+    Version: 1
+    Value: caNanoLab Data
+    Definition: 10.17917
+  HCI-PDX:
+    Origin: CRDC
+    Code: HCI-PDX
+    Version: 1
+    Value: HCI-PDX Trial Center for Breast Cancer Therapy
+    Definition: phs002479
+  UoT-PDX:
+    Origin: CRDC
+    Code: UoT-PDX
+    Version: 1
+    Value: University of Texas PDX Development and Trial Center Grant
+    Definition: phs001980
+  WU-PDX:
+    Origin: CRDC
+    Code: WU-PDX
+    Version: 1
+    Value: Washington University PDX Development and Trial Center
+    Definition: phs002305
+  W-PDX DaTCSiSC:
+    Origin: CRDC
+    Code: W-PDX DaTCSiSC
+    Version: 1
+    Value: Wistar PDX Development and Trial Center SPORE in Skin Cancer
+    Definition: phs002482
   CPTAC:
     Origin: CRDC
     Code: CPTAC
