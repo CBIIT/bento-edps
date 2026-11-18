@@ -495,7 +495,7 @@ Terms:
     Origin: CRDC
     Code: CIDR CRC
     Version: 1
-    Value: Molecular Pathological Epidemiology of CRC
+    Value: CIDR: Molecular Pathological Epidemiology of CRC
     Definition: phs001905
   COTC026:
     Origin: CRDC
@@ -721,13 +721,13 @@ Terms:
     Origin: CRDC
     Code: LCCC1108
     Version: 1
-    Value: Development of a Tumor Molecular Analyses Program and Its Use to Support Treatment Decisions (UNCseqTM)
+    Value: LCCC 1108: Development of a Tumor Molecular Analyses Program and Its Use to Support Treatment Decisions (UNCseqTM)
     Definition: phs001713 
   DBaRoIViG:
     Origin: CRDC
     Code: DBaRoIViG
     Version: 1
-    Value: CIDR Discovery, Biology, and Risk of Inherited Variants in Glioma
+    Value: CIDR: Discovery, Biology, and Risk of Inherited Variants in Glioma
     Definition: phs002250
   CIDR Agg Prostate Cancer:
     Origin: CRDC
@@ -875,10 +875,9 @@ Terms:
     Definition: phs001878
   Aggr Prostate Cancer:
     Origin: CRDC
-    Code: Aggr Prostate Cancer
+    Code: Agg Prostate Cancer
     Version: 1
-    Value: 'CIDR: The Genetic Basis of Aggressive Prostate Cancer: The Role of Rare
-      Variation'
+    Value: CIDR: The Genetic Basis of Aggressive Prostate Cancer, The Role of Rare Variation
     Definition: phs001524
   CMB:
     Origin: CRDC
